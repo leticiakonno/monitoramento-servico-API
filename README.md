@@ -10,7 +10,7 @@ Este repositório contém um script de automação desenvolvido para monitorar a
 ## Funcionalidades
 
 * **Verificação Periódica:** Monitoramento automático de status HTTP (uptime/downtime).
-* **Alertas em Tempo Real:** Notificações instantâneas caso o serviço fique indisponível.
+* **Alertas em Tempo Real:** Notificações instantâneas caso o serviço fique indisponível. Nesse caso, o script foi feito para enviar uma mensagem via bot criado no Telegram.
 * **Leveza:** Script otimizado para fácil integração em servidores de produção.
 
 ## Aplicação DevOps
