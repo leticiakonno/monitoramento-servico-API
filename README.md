@@ -1,23 +1,28 @@
-Monitoramento de Disponibilidade - Badminton Itape
-Este repositório contém um script de automação desenvolvido para monitorar a disponibilidade do site Badminton Itape. A ferramenta envia alertas automáticos caso o site fique offline, garantindo uma resposta rápida a períodos de indisponibilidade (como manutenções programadas ou falhas de servidor).
+# Monitoramento de Disponibilidade - Badminton Itape
 
-Sobre a Implementação
-Código de Teste: O script presente neste repositório é uma versão de teste/exemplo para validação da lógica de monitoramento.
+Este repositório contém um script de automação desenvolvido para monitorar a disponibilidade do site **Badminton Itape**. A ferramenta envia alertas automáticos caso o site fique offline, garantindo uma resposta rápida a períodos de indisponibilidade, como manutenções programadas ou falhas no servidor.
 
-Ambiente de Produção: O sistema que está atualmente em execução e monitorando o site oficial foi desenvolvido em PHP, garantindo performance e integração direta com o servidor de hospedagem.
+## Sobre a Implementação
 
-Funcionalidades
-Verificação periódica de status HTTP (uptime/downtime).
+* **Código de Teste:** O script presente neste repositório é uma versão de teste utilizada para validação da lógica de monitoramento.
+* **Ambiente de Produção:** O sistema que está atualmente em execução e monitorando o site oficial foi desenvolvido em **PHP**, garantindo performance e integração direta com o ambiente de hospedagem.
 
-Envio de alertas em tempo real.
+## Funcionalidades
 
-Leve e fácil de integrar em ambientes de produção.
+* **Verificação Periódica:** Monitoramento automático de status HTTP (uptime/downtime).
+* **Alertas em Tempo Real:** Notificações instantâneas caso o serviço fique indisponível.
+* **Leveza:** Script otimizado para fácil integração em servidores de produção.
 
-Aplicação DevOps
-Este projeto exemplifica práticas fundamentais de DevOps:
+## Aplicação DevOps
 
-Observabilidade: Monitoramento proativo para reduzir o Tempo Médio de Detecção (MTTD).
+Este projeto exemplifica práticas fundamentais de **DevOps**:
 
-Automação: Eliminação de verificações manuais repetitivas.
+* **Observabilidade:** Monitoramento proativo para reduzir o Tempo Médio de Detecção (MTTD).
+* **Automação:** Eliminação de verificações manuais repetitivas.
+* **Confiabilidade:** Garantia da resiliência do serviço através de feedback contínuo.
 
-Confiabilidade: Garantir a resiliência do serviço através de feedback contínuo.
+## Como Utilizar (Script de Teste)
+
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
