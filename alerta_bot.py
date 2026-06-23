@@ -1,0 +1,24 @@
+import requests
+
+def enviar_alerta(mensagem):
+    token = "8793241532:AAFR9qL6REIBFXcDiBuTEzkTgS8j8ObuZ7o"  # Cole seu token aqui
+    chat_id = "6839035776" # Cole seu ID aqui
+    url = f"https://api.telegram.org/bot{token}/sendMessage"
+    
+    params = {
+        "chat_id": chat_id,
+        "text": mensagem
+    }
+    
+    response = requests.get(url, params=params)
+    return response.json()
+
+# Testando o envio
+if __name__ == "__main__":
+    msg = "Alerta: O sistema está funcionando perfeitamente!"
+    resultado = enviar_alerta(msg)
+    
+    if resultado.get("ok"):
+        print("Mensagem enviada com sucesso!")
+    else:
+        print("Erro ao enviar a mensagem:", resultado)
