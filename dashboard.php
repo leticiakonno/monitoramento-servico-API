@@ -2,7 +2,7 @@
 session_start();
 
 // Configuração de Credenciais (Controle de Acesso)
-$usuario_correto = "admin"; 
+$usuario_correto = "seu_usuario"; 
 $senha_correta = "sua_senha_secreta"; 
 
 // Validação do Formulário
